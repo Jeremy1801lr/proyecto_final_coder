@@ -6,10 +6,17 @@
     <title>Brawlhalla Info- Inicio</title>
 
     <!-- CSS Link-->
+
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
 
-  <body>
+  <body class="body">
     <!-- Cabecera -->
     <header>
       <!-- Título de la Página e Index-->
@@ -37,104 +44,123 @@
 
     <!-- Cuerpo de la Página -->
 
-    <main>
-      <section class="section-main">
-        <div class="div-general">
-          <div class="div-subgeneral">
-            <div class="div-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6">
+          <div class="div-main">
+            <div class="card-container">
               <img
                 id="menu-main"
                 src="./assets/02imgs/01Leyendas.jpg"
                 alt="Imagen de Leyendas de Brawlhalla"
               />
-              
+
               <a class="titulos-mains" href="./pages/leyendas.html">Leyendas</a>
               <p class="titulos-third">
-                Conoce a todas Leyendas del juego, sus Skins, sus
-                <br />Crossovers y escoge tu personaje favorito<br />
-                para comenzar a luchar.
+                Conoce a todas Leyendas del juego, sus Skins, sus Crossovers y
+                escoge tu personaje favorito para comenzar a luchar.
               </p>
             </div>
-
-            <br />
-
-            <div class="div-main">
+          </div>
+          <div class="div-main">
+            <div class="card-container">
               <img
                 id="menu-main"
                 src="./assets/02imgs/02Armas.jpg"
                 alt="Imagen de Armas de Brawlhalla"
               />
-              
+
               <a class="titulos-mains" href="./pages/armas.html">Armas</a>
-              <p class="titulos-third">
-                ¿No sabes qué hace cada arma? Aquí verás cada una
-                <br />de ellas, sus Skins y las Leyendas que utilizan <br />
-                cada arma.
-              </p>
+              <div>
+                <p class="titulos-third">
+                  ¿No sabes qué hace cada arma? Aquí verás cada una de ellas,
+                  sus Skins y las Leyendas que utilizan cada arma.
+                </p>
+              </div>
             </div>
           </div>
-          <br />
-          <div class="div-subgeneral">
-            <div class="div-main">
+        </div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="div-main">
+            <div class="card-container">
               <img
                 id="menu-main"
                 src="./assets/02imgs/03Mapas.jpg"
                 alt="Imagen de Mapas de Brawlhalla"
               />
-              
+
               <a class="titulos-mains" href="./pages/mapas.html">Mapas</a>
-              <p class="titulos-third">
-                En esta sección podrás ver una galeria de los
-                <br />Mapas en los que posiblemente podrás jugar<br />
-                y sus respectivos nombres.
-              </p>
+              <div>
+                <p class="titulos-third">
+                  En esta sección podrás ver una galeria de los Mapas en los que
+                  posiblemente podrás jugar y sus respectivos nombres.
+                </p>
+              </div>
             </div>
+          </div>
 
-            <br />
-
-            <div class="div-main">
+          <div class="div-main">
+            <div class="card-container">
               <img
                 id="menu-main"
                 src="./assets/02imgs/04Combos.jpg"
                 alt="Imagen de Combos de Brawlhalla"
               />
-              
+
               <a class="titulos-mains" href="./pages/combos.html">Combos</a>
-              <p class="titulos-third">
-                ¿Aún no conoces los distintos controles posibles
-                <br />en el juego? Aquí te mostramos cada control y<br />
-                los Combos que puedes realizar con cada arma.
-              </p>
+              <div>
+                <p class="titulos-third">
+                  ¿Aún no conoces cómo moverte? Aquí te mostramos cada control y
+                  los Combos que puedes realizar con cada arma.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </div>
 
     <!-- Pié de Página -->
     <footer>
       <ul>
         <li>
-          <a target="_blank" class="titulos-sec" href="https://www.youtube.com/c/brawlhalla"
+          <a
+            target="_blank"
+            class="titulos-sec"
+            href="https://www.youtube.com/c/brawlhalla"
             >YouTube</a
           >
         </li>
         <li>
-          <a target="_blank" class="titulos-sec" href="https://www.facebook.com/Brawlhalla"
+          <a
+            target="_blank"
+            class="titulos-sec"
+            href="https://www.facebook.com/Brawlhalla"
             >Facebook</a
           >
         </li>
         <li>
-          <a target="_blank" class="titulos-sec" href="https://www.twitch.tv/brawlhalla"
+          <a
+            target="_blank"
+            class="titulos-sec"
+            href="https://www.twitch.tv/brawlhalla"
             >Twitch</a
           >
         </li>
         <li>
-          <a target="_blank" class="titulos-sec" href="https://discord.com/invite/brawlhalla"
+          <a
+            target="_blank"
+            class="titulos-sec"
+            href="https://discord.com/invite/brawlhalla"
             >Discord</a
           >
         </li>
       </ul>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
