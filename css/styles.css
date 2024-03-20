@@ -1,3 +1,17 @@
+ /* ANIMACIONES */
+
+@keyframes difuminar {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
 /* ------------------------------ PROPIEDADES GENERALES ------------------------------ */
 
 * {
@@ -59,8 +73,9 @@
   text-align: center;
 }
 
+
 .body-color {
-  background-color: #7187ad;
+  background-image: linear-gradient(to bottom, #ffc60a, #4b638d);
 }
 
 /* ------------------------------ PROPIEDADES DEL HEADER ------------------------------ */
@@ -101,10 +116,23 @@ nav ul {
   border-radius: 10px;
 }
 
+#menu-main:hover{
+  animation-name: difuminar;
+  animation-timing-function:ease-in;
+  animation-duration: 1s;
+}
+
+
 .leyendas{
   width: 50%;
 }
 
+.leyendas:hover {
+  border-color: #ffc60a;
+  animation-name: difuminar;
+  animation-timing-function:ease-in;
+  animation-duration: 1s;
+}
 
 main {
   padding-top: 30px;
@@ -142,13 +170,25 @@ main {
   border-radius: 20px;
 }
 
-
-
 .section-mapas{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.iframe-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.acordeon-bs{
+  padding: 2%;
+
+}
+
+
 
 /* ------------------------------ PROPIEDADES DEL FOOTER ------------------------------ */
 
